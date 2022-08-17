@@ -159,7 +159,7 @@ Technologies used in the project;
 
 4- httptest library for Golang tests
 
-5- sqlite as database to store data
+5- sqlite was used as database to store data, then revised with postgresql
 
 6- Postman to test API
 
