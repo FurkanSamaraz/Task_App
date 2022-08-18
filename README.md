@@ -1,8 +1,9 @@
 # Task_App
 
-
 # Project Title
 ```
+Note: With case_Version 2.0, the database has been revised as postgreSQL and the controls have been improved.
+
 The project I developed is a proprietary issue tracking product that enables bug tracking and agile project management.
 My project, which is a demo software, is a project software that can be used in more than ten industries. 
 This software is a simple backend architecture with no frontend. In the future, the advanced version of the 
@@ -35,7 +36,30 @@ are required.
 ### Installing
 
 ```
-For Go installation, you can refer to my previous installation post.
+After the Go installation, I will transfer what I did to set the correct GOROOT and GOPATH variables, install 3rd party packages, and set up the project. I'm writing for MacOS, I think it can be solved with similar configurations in other UNIX distributions. First of all, I downloaded Go from this address. Then I installed the package, next, next, next (my favorite) It gets added to your Go PATH along with the package installation, so you can run it to the command line to check it out.
+
+- go version
+You can write. Now we need to assign values for the GOROOT and GOPATH environment variables. It is useful to give brief information about these variables, GOROOT is used to reach the directory where Go is installed. For macOS, this value should be /usr/local/go. To check if this value is correct "which go" you can find out where Go is installed with the command. As a result, I got the following response "/usr/local/go/bin/go" based on this answer, I learned which directory the executable file is in. There is no problem, now the GOROOT value "/usr/local/go" I can assign as.
+for this i open my profile file "nano $HOME/.bash_profile" I enter this line in it "export GOROOT=/usr/local/go".
+
+Yes, now I need a directory where I will host Go projects, in this directory there will be Go projects that I will create or clone, as well as the 3rd party packages I have downloaded in this directory. For this, I will open a directory on the desktop, you can edit it according to your wishes. I prefer to install on desktop.
+
+-cd /Users/furkan/Desktop/
+-mkdir GoProjects
+-cd GoProjects
+-mkdir src 
+-mkdir pkg
+
+In line with these commands, I created a folder called GoProjects on the desktop and I created 2 more folders called src and pkg. Now GOPATH, that is, the folder where my Go projects and 3rd party packages will be hosted, is ready. In order for Go to access the packages, I need to add them to the PATH. I open my profile file again "nano $HOME/.bash_profile" I add the following line "export GOPATH=/Users/furkan/Desktop/GoProjects"
+
+Yes, Go installation and environment variables are also completed, the packages I downloaded with go get and my own packages are working correctly in line with this article. In order for our variables to become permanent "source $HOME/.bash_profile" We enter the command.
+
+for mod and sum.
+-go mod init main.go
+-go mod tidy
+
+
+You can check the installation repo details.
 
 https://github.com/FurkanSamaraz/GoKurulum
 
@@ -159,7 +183,7 @@ Technologies used in the project;
 
 4- httptest library for Golang tests
 
-5- sqlite was used as database to store data, then revised with postgresql
+5- sqlite as database to store data
 
 6- Postman to test API
 
@@ -208,3 +232,4 @@ Building a package:
 go build . # outputs an executable with name as the name of enclosing folder
 
 ```
+
