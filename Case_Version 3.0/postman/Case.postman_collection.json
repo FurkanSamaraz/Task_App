@@ -1,0 +1,1053 @@
+{
+	"id": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+	"name": "Case",
+	"description": "",
+	"order": [
+		"7f4a2d37-4fbd-b7cf-8bcb-86899d6396a5",
+		"78b2e259-ea7b-62a9-75a3-4b00b7a05e81",
+		"175ae477-bc10-77be-77cc-68008f949146",
+		"2d00bc84-dc09-b18f-ebc3-143e49d93b62",
+		"9899f125-ab49-820f-b8f2-25668fcafc43",
+		"ceaf0a1d-ad83-067f-b20f-31fe6379b012",
+		"f575bc00-ea17-fbfd-3f6d-0c8c1e0ebe71",
+		"0d0ad4b7-ea59-2ee8-dc8f-b4e52c3e1f19",
+		"43574610-a273-476c-dad0-0f396e9fcd91",
+		"c7a142d5-2a78-75b9-fbd1-5e0dbd5ef6ee",
+		"52d93fe8-74bb-83f8-d24f-2bf4e5c0533c",
+		"3fb9a02b-0d16-aed1-e3b0-2875aa1b7dcf",
+		"47f1b1ed-6c39-c537-f3ac-9e24b0d07a15",
+		"44a40793-cba9-720c-e080-912c0c9b16cd",
+		"2de4d79f-6174-7032-d704-fa8b3ce0a2e9",
+		"e31c1f05-3b08-7b53-b13b-92a657f094f4",
+		"fcbdd6cc-cb14-94b0-39fd-6f8d41a9e68d",
+		"c829d10d-5b8d-7e86-a986-75b9a00b60df",
+		"f178f661-6fdc-3ba2-7947-d993aeb3b832",
+		"dae9ef2f-c760-6bd0-0e32-b639c97cbf67",
+		"84f9467b-cda4-d968-a2d1-f88544fdcbd9",
+		"e1c23591-d206-d806-c06a-edcdd6189d5c",
+		"9ce001c8-a13b-f1ad-4c56-92235ed01c9a",
+		"d2fa3642-9386-d112-a341-e4cee64b48a4",
+		"cd3a8cda-c50a-26b3-d5a9-b056427a90f9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1660410639177,
+	"owner": "18965937",
+	"public": false,
+	"requests": [
+		{
+			"id": "0d0ad4b7-ea59-2ee8-dc8f-b4e52c3e1f19",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryTagGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "tag",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryTagGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418435336,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "175ae477-bc10-77be-77cc-68008f949146",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/EntryTopAllGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_Code",
+					"value": "847227782401260614",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryTopAllGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660410768687,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2d00bc84-dc09-b18f-ebc3-143e49d93b62",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryComCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_id",
+					"value": "847227782401260614",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "text",
+					"value": "Deneme Text",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryComCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660413933553,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2de4d79f-6174-7032-d704-fa8b3ce0a2e9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/UsersActiveGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "is_Active",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UsersActiveGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418655834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3fb9a02b-0d16-aed1-e3b0-2875aa1b7dcf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/UsersGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": null,
+			"dataMode": "params",
+			"name": "UsersGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418536194,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "43574610-a273-476c-dad0-0f396e9fcd91",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/EntryGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": null,
+			"dataMode": "params",
+			"name": "EntryGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418478115,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "44a40793-cba9-720c-e080-912c0c9b16cd",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryStatusGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "Get",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryStatusGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418611284,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "47f1b1ed-6c39-c537-f3ac-9e24b0d07a15",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryeReltMainGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "main_entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryeReltMainGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418579922,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "52d93fe8-74bb-83f8-d24f-2bf4e5c0533c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/StatusGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": null,
+			"dataMode": "params",
+			"name": "StatusGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418525773,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "78b2e259-ea7b-62a9-75a3-4b00b7a05e81",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_Title",
+					"value": "merhaba",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "In Progress",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "assig",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tag",
+					"value": "1002",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660410758528,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7f4a2d37-4fbd-b7cf-8bcb-86899d6396a5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/EntryTrueGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "Get",
+					"value": "2022-08-11 00:30:30",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Get2",
+					"value": "2022-08-11 16:39:06",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryTrueGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660410726963,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "84f9467b-cda4-d968-a2d1-f88544fdcbd9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryReltCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "Main_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Sub_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Parent_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryReltCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418957481,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9899f125-ab49-820f-b8f2-25668fcafc43",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryComGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [],
+			"dataMode": "urlencoded",
+			"name": "EntryComGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418256502,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9ce001c8-a13b-f1ad-4c56-92235ed01c9a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/UserCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "User_Name",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Name",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Surname",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Is_Active",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UserCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660419029705,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c7a142d5-2a78-75b9-fbd1-5e0dbd5ef6ee",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/EntryeReltGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": null,
+			"dataMode": "params",
+			"name": "EntryeReltGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418507710,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c829d10d-5b8d-7e86-a986-75b9a00b60df",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryUpdate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "entry_id",
+					"value": "5761002432609146772",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "entry_Title",
+					"value": "Response_Error2321",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "Done",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "assig",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660914423775,
+			"name": "EntryUpdate",
+			"description": "",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"responses": []
+		},
+		{
+			"id": "cd3a8cda-c50a-26b3-d5a9-b056427a90f9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/full",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_Code",
+					"value": "7618491770200014908",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntrySubFull",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660918821857,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ceaf0a1d-ad83-067f-b20f-31fe6379b012",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryComRemove",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_Id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_Id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryComRemove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418327122,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d2fa3642-9386-d112-a341-e4cee64b48a4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/UsersEntryAllGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UsersEntryAllGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660516315934,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dae9ef2f-c760-6bd0-0e32-b639c97cbf67",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/StatusUpdate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "name",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "StatusUpdate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418875055,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e1c23591-d206-d806-c06a-edcdd6189d5c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/StatusCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "name",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "StatusCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418982878,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e31c1f05-3b08-7b53-b13b-92a657f094f4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryTimeCreGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "create_Date_Start",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "create_Date_End",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryTimeCreGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418704772,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f178f661-6fdc-3ba2-7947-d993aeb3b832",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryReltUpdate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "main_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sub_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parent_Entry",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryReltUpdate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418836162,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f575bc00-ea17-fbfd-3f6d-0c8c1e0ebe71",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryAllGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "entry_Code",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryAllGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418388773,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fcbdd6cc-cb14-94b0-39fd-6f8d41a9e68d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/EntryTimeUpdGet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e486ca2e-9b9c-dc23-4cfa-05bc1105d9bf",
+			"data": [
+				{
+					"key": "create_Date_Start",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "create_Date_End",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "EntryTimeUpdGet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660418731040,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
